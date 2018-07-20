@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottomNavigationForms.Andro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottomNavigationForms.iOS", "BottomNavigationForms\BottomNavigationForms.iOS\BottomNavigationForms.iOS.csproj", "{40D2E5F1-310E-484E-B1B9-7C3A9D522F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottomNavigationForms", "BottomNavigationForms\BottomNavigationForms\BottomNavigationForms.csproj", "{545BA42A-C372-4116-B965-F4BDCFFDBB18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BottomNavigationForms", "BottomNavigationForms\BottomNavigationForms\BottomNavigationForms.csproj", "{545BA42A-C372-4116-B965-F4BDCFFDBB18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

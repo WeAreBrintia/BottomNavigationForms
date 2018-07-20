@@ -1,14 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:BottomNavigationForms"
-             x:Class="BottomNavigationForms.MainPage">
-
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
-</ContentPage>
+<TabbedPage x:Class="BottomNavigationForms.MainPage"
+            xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:local="clr-namespace:BottomNavigationForms"
+            android:TabbedPage.ToolbarPlacement="Bottom">
+    <local:TabOne Title="Home" Icon="home" />
+    <local:TabTwo Title="Settings" Icon="settings" />
+    <local:TabThree Title="Users" Icon="users" />
+</TabbedPage>
